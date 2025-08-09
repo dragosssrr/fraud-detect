@@ -1,0 +1,47 @@
+# ---------------------------
+# Python compiled / cache
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+.venv/
+env/
+venv/
+
+# ---------------------------
+# Jupyter Notebook checkpoints
+# ---------------------------
+.ipynb_checkpoints
+
+# ---------------------------
+# OS-specific files
+# ---------------------------
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# ---------------------------
+# Data folders
+# ---------------------------
+data/*
+!data/.gitkeep   # allow placeholder so folder is tracked
+
+# ---------------------------
+# Model & artifact outputs
+# ---------------------------
+models/*
+!models/.gitkeep
+
+artifacts/*
+!artifacts/.gitkeep
+
+# ---------------------------
+# Logs & temp files
+# ---------------------------
+logs/
+*.log
+tmp/
