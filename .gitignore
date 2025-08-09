@@ -25,10 +25,16 @@ venv/
 Thumbs.db      # Windows
 
 # ---------------------------
-# Data folders
+# Data folders (ignore all, keep placeholders)
 # ---------------------------
 data/*
-!data/.gitkeep   # allow placeholder so folder is tracked
+!data/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 
 # ---------------------------
 # Model & artifact outputs
